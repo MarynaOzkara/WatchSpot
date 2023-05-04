@@ -1,0 +1,72 @@
+body{
+    font-family:;
+    background-color:;
+    color:;
+
+} 
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+    /* max-width: 100%; */
+    height: auto;
+    /* width: 100%; */
+}
+address{
+    font-style: normal;
+}
+button{
+    cursor: pointer;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+/* -------------SALE----------------- */
+
+.sale {
+    padding-bottom: 80px;
+}
+.title {
+    padding-bottom: 40px;
+}
+.sale-gallery {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+.sale-gallery-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.list {
+}
+.sale-gallery-item {
+}
+.sale-galleri-main {
+}
+.sale-watch-title {
+}
+.sale-product {
+}
+.sale-price {
+}
+.prewie-price {
+}
+.sale-details {
+}
+.sale-description {
+}
+.sale-details-list {
+}
+.sale-details-item {
+}
