@@ -5,37 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WatchSpot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+     <!-- <header>
         <nav>
             <a href="index.html">
                 <img src="" alt="">
                 thewatchspot</a>
             <ul>
-                <li><a href=""></a>about us</li>
-                <li><a href=""></a>catalog</li>
-                <li><a href=""></a>sale</li>
+                <li><a href="">about us</a></li>
+                <li><a href="">catalog</a></li>
+                <li><a href="#sale" class="link">sale</a></li>
             </ul>
         </nav>
         <a href="tel:+38068443942">+380 (68) 443-94-2</a>    
-    </header>
+    </header> -->
     <main>
-        <section class="hero">
+        <!-- <section class="hero">
            <h1>Welcome to our collection of premium watches</h1>
            <p>Our watches are not just timepieces, but also an expression of your personality and lifestyle. From classic designs to modern ones, we have a watch to suit every taste and occasion.</p>
            <div class="slider"></div>
            <img src="" alt="">
-        </section>
-        <section class="about us">
+        </section> -->
+        <!-- <section class="about us">
             <h2>About us</h2>
             <p>Welcome to our premium watch collection, where luxury and style meet functionality and precision. Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll always have a reliable and stylish accessory on your wrist.</p>
             <p>At our premium watch collection, we believe that a watch is more than just a timekeeping device – it's a statement piece that reflects your personality and style. So why settle for anything less than the best? Browse our collection today and discover the perfect watch for you.</p>
             <img src="" alt="">
-        </section>
-        <section class="catalog">
+        </section> -->
+        <!-- <section class="catalog">
             <h2>Catalog</h2>
             <ul>
                 <li>
@@ -100,62 +103,104 @@
                 </li>
             </ul>
             <button type="button">Buy now</button>
-        </section>
-        <section class="new watches">
+        </section> -->
+        <!-- <section class="new watches">
             <p>New watches</p>
             <h2>Green And Bronze—The Match Made In Heaven</h2>
             <ul>
                 <li><img src="" alt=""></li>
                 <li><img src="" alt=""></li>
             </ul>
-        </section>
-        <section class="sale">
-            <h2 class="title">Sale</h2>
-            <div class="sale-gallery">
-                <ul class="sale-gallery-list list">
-                    <li class="sale-gallery-item"><img src="./img/sale/sale-1-mob.jpg" alt="" width="80" height="80"></li>
-                    <li class="sale-gallery-item"><img src="./img/sale/sale-2-mob.jpg" alt="" width="80" height="80"></li>
-                    <li class="sale-gallery-item"><img src="./img/sale/sale-3-mob.jpg" alt="" width="80" height="80"></li>
-                    <li class="sale-gallery-item"><img src="./img/sale/sale-4-mob.jpg" alt="" width="80" height="80"></li>
-                </ul>
-                <img src="./img/sale/sale-main-mob.jpg" alt="" width="235" height="350" class="sale-galleri-main">
-            </div>
-            <h3 class="sale-watch-title">Greenlane Watch By Police For MenHT</h3>
-            <p class="sale-product">Product tag: PEWJK2227003</p>
-            <p class="sale-price">€700</p>
-            <span class="prewie-price">€1000</span>
-            <h4 class="sale-details">Description</h4>
-            <p class="sale-description">Richly detailed with an understated design - the Police Men’s Greenlane watch features a versatile multifunction design that fits effortlessly into work and play. The steel case is adorned with a semi-transparent black dial. The timepiece exhibits a contrast through a black IP bracelet with matching crown and pushers.</p>  
-            <h4 class="sale-details">DETAILS & FEATUREStion</h4>
-            <ul class="sale-details-list list">
-                        <li class="sale-details-item">
-                            <p>Gender: man</p>
-                        </li>
-                        <li class="sale-details-item">
-                            <p>Size: 46x54.5mm</p>
-                        </li>
-                        <li class="sale-details-item">
-                            <p>Case Colour: Steel</p>
-                        </li>
-                        <li class="sale-details-item">
-                            <p>Band Material: Metal</p>
-                        </li>
-                        <li class="sale-details-item">
-                            <p>Case Material: Metal</p>
-                        </li>
-                        <li class="sale-details-item">
-                            <p>Features: Multifunction</p>
-                        </li>
-                        <li class="sale-details-item">
-                            <p>Water Resistant: 5 (ATM)</p>
-                        </li>
-                        <li class="sale-details-item">
-                            <p>Band Colour: Steel</p>
-                        </li>
-            </ul>   
+        </section> -->
+        <section class="sale" id="sale">
+            <div class="container">
+                <h2 class="sale-title">Sale</h2>
+                    <div class="sale-wrap">
+                        <div class="sale-gallery">
+                            <ul class="sale-gallery-list list">
+                                <li class="sale-gallery-item">
+                                    <picture>
+                                        <source srcset="./img/sale/sale-1.jpg 1x, ./img/sale/sale-1@2x 2x" media="min-width: 768px">
+                                        <source srcset="./img/sale/sale-1-mob.jpg 1x, ./img/sale/sale-1-mob@2x 2x" media="max-width: 767px">
+                                        <img src="./img/sale/sale-1.jpg" alt="fist picture of watch" width="80" height="80">
+                                    </picture>
+                                </li>
+                                <li class="sale-gallery-item">
+                                    <picture>
+                                        <source srcset="./img/sale/sale-2.jpg 1x, ./img/sale/sale-2@2x 2x" media="min-width: 768px">
+                                        <source srcset="./img/sale/sale-2-mob.jpg 1x, ./img/sale/sale-2-mob@2x 2x" media="max-width: 767px">
+                                        <img src="./img/sale/sale-2.jpg" alt="second picture of watch" width="80" height="80">
+                                    </picture>
+                                    </li>
+                                <li class="sale-gallery-item">
+                                    <picture>
+                                        <source srcset="./img/sale/sale-3.jpg 1x, ./img/sale/sale-3@2x 2x" media="min-width: 768px">
+                                        <source srcset="./img/sale/sale-3-mob.jpg 1x, ./img/sale/sale-3-mob@2x 2x" media="max-width: 767px">
+                                        <img src="./img/sale/sale-3.jpg" alt="third picture of watch" width="80" height="80">
+                                    </picture>
+                                    </li>
+                                <li class="sale-gallery-item">
+                                    <picture>
+                                        <source srcset="./img/sale/sale-4.jpg 1x, ./img/sale/sale-4@2x 2x" media="min-width: 768px">
+                                        <source srcset="./img/sale/sale-4-mob.jpg 1x, ./img/sale/sale-4-mob@2x 2x" media="max-width: 767px">
+                                        <img src="./img/sale/sale-4.jpg" alt="fourth picture of watch" width="80" height="80">
+                                    </picture>
+                                </li>
+                            </ul>
+                            <picture>
+                                <!-- <source srcset="./img/sale/sale-main.jpg 1x, ./img/sale/sale-main@2x 2x" media="min-width: 768px">
+                                <source srcset="./img/sale/sale-main-mob.jpg 1x, ./img/sale/sale-main-mob@2x 2x" media="max-width: 767px"> -->
+                                <img src="./img/sale/sale-main.jpg" alt="main picture of watch" width="235" height="350">
+                            </picture>
+                        </div>
+                        <div class="details-wrap">
+                            <h3 class="sale-watch-title">Greenlane Watch By Police For MenHT</h3>
+                            <p class="sale-product">Product tag: PEWJK2227003</p>
+                            <div class="sale-price-wrap">
+                                <span class="sale-price">€700</span>
+                                <p class="prewie-price">€1000</p>
+                            </div>
+                            <ul class="sale-description-list list">
+                                <li class="sale-description-item">
+                                    <h4 class="sale-details">Description</h4>
+                                    <p class="sale-description">Richly detailed with an understated design - the Police Men’s Greenlane watch features a versatile multifunction design that fits effortlessly into work and play. The steel case is adorned with a semi-transparent black dial. The timepiece exhibits a contrast through a black IP bracelet with matching crown and pushers.</p> 
+                                </li>
+                                <li class="sale-description-item">
+                                    <h4 class="sale-details">DETAILS & FEATUREStion</h4>
+                                    <ul class="sale-details-list list">
+                                                <li class="sale-details-item">
+                                                    <p class="sale-details-info">Gender: man</p>
+                                                </li>
+                                                <li class="sale-details-item">
+                                                    <p class="sale-details-info">Size: 46x54.5mm</p>
+                                                </li>
+                                                <li class="sale-details-item">
+                                                    <p class="sale-details-info">Case Colour: Steel</p>
+                                                </li>
+                                                <li class="sale-details-item">
+                                                    <p class="sale-details-info">Band Material: Metal</p>
+                                                </li>
+                                                <li class="sale-details-item">
+                                                    <p class="sale-details-info">Case Material: Metal</p>
+                                                </li>
+                                                <li class="sale-details-item">
+                                                    <p class="sale-details-info">Features: Multifunction</p>
+                                                </li>
+                                                <li class="sale-details-item">
+                                                    <p class="sale-details-info">Water Resistant: 5 (ATM)</p>
+                                                </li>
+                                                <li class="sale-details-item">
+                                                    <p class="sale-details-info">Band Colour: Steel</p>
+                                                </li>
+                                    </ul>
+                                </li>
+                            </ul> 
+                        </div>  
+                    </div> 
+             </div> 
         </section> 
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
             <a href="">
                 <img src="" alt="">
             </a>
@@ -196,6 +241,6 @@
                     <li><a href="">Terms of Service</a></li>
                 </ul>
             </div>
-    </footer> 
+    </footer>  -->
 </body>
 </html>
