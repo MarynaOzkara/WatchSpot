@@ -13,9 +13,9 @@ ul{
 }
 img{
     display: block;
-    /* max-width: 100%; */
+    max-width: 100%;
     height: auto;
-    /* width: 100%; */
+    width: 100%;
 }
 address{
     font-style: normal;
@@ -30,6 +30,7 @@ button{
     text-decoration: none;
 }
 .container{
+    width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
@@ -139,6 +140,15 @@ button{
     letter-spacing: -0.01em;
 }
 
+/* ----------------MOBILE-------------------- */
+
+@media screen and (min-width: 375px) {
+    .container{
+        width: 375px;
+    }
+    
+}
+
 /* ----------------TABLET-------------------- */
 
 @media screen and (min-width: 768px){
@@ -158,6 +168,9 @@ button{
     .sale-watch-title{
         font-size: 38px;
         line-height: 1.05;
+    }
+    .sale-gallery{
+        min-width: 572px;
     }
     
 }
