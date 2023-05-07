@@ -68,6 +68,9 @@ button{
 .about-decritption:not(:last-child){
     margin-bottom: 20px;
 }
+.about-animation{
+    display: none;
+}
 
 /* -------------SALE----------------- */
 

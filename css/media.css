@@ -34,6 +34,14 @@
         display: flex;
         gap: 20px;
     }
+    .about-img{
+        display: none;
+    }
+    .about-animation{
+        display: block;
+        width: 704px;
+        height: 465px;
+    }
 
     /* -------------SALE----------------- */
     .sale-title{
@@ -64,10 +72,17 @@
     }
 
     /* -------------ABOUT AS----------------- */
+  
     .about-descr-wrap{
         max-width: 859px;
         gap: 40px;
     }
+    .about-animation{
+        width: 892px;
+        height: 500px;
+        margin-left: auto;
+    }
+   
 
 
     /* -------------SALE----------------- */
