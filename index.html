@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
      <!-- <header>
@@ -32,12 +33,23 @@
            <div class="slider"></div>
            <img src="" alt="">
         </section> -->
-        <!-- <section class="about us">
-            <h2>About us</h2>
-            <p>Welcome to our premium watch collection, where luxury and style meet functionality and precision. Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll always have a reliable and stylish accessory on your wrist.</p>
-            <p>At our premium watch collection, we believe that a watch is more than just a timekeeping device – it's a statement piece that reflects your personality and style. So why settle for anything less than the best? Browse our collection today and discover the perfect watch for you.</p>
-            <img src="" alt="">
-        </section> -->
+        <section class="about-us" id="about-us">
+            <div class="container">
+                <div class="about-wrap">
+                    <h2 class="about-title">About us</h2>
+                    <div class="about-descr-wrap">
+                        <p class="about-decritption">Welcome to our premium watch collection, where luxury and style meet functionality and precision. Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll always have a reliable and stylish accessory on your wrist.</p>
+                        <p class="about-decritption">At our premium watch collection, we believe that a watch is more than just a timekeeping device – it's a statement piece that reflects your personality and style. So why settle for anything less than the best? Browse our collection today and discover the perfect watch for you.</p>
+                    </div>
+                </div>
+                <picture class="gif-container">
+                    <source srcset="./img/about/gif-1.jpg" media="(min-width: 768px)">
+                    <source srcset="./img/about/gif.jpg" media="(max-width: 767px)">
+                    <img src="./img/about/gif.jpg" alt="video of watch">
+                </picture>
+                
+            </div>
+        </section>
         <!-- <section class="catalog">
             <h2>Catalog</h2>
             <ul>
@@ -119,38 +131,38 @@
                         <div class="sale-gallery">
                             <ul class="sale-gallery-list list">
                                 <li class="sale-gallery-item">
-                                    <!-- <picture>
-                                        <source srcset="./img/sale/sale-1.jpg 1x, ./img/sale/sale-1@2x 2x" media="min-width: 768px">
-                                        <source srcset="./img/sale/sale-1-mob.jpg 1x, ./img/sale/sale-1-mob@2x 2x" media="min-width: 375px">
-                                        <img src="./img/sale/sale-1.jpg" alt="fist picture of watch" width="146" height="146">
-                                    </picture> -->
+                                    <picture>
+                                        <source srcset="./img/sale/sale-1.jpg 1x, ./img/sale/sale-1@2x.jpg 2x" media="(min-width: 768px)">
+                                        <source srcset="./img/sale/sale-1-mob.jpg 1x, ./img/sale/sale-1-mob@2x.jpg 2x" media="(max-width: 767px)">
+                                        <img src="./img/sale/sale-1.jpg" alt="first picture of watch" width="146" height="146">
+                                    </picture>
                                 </li>
                                 <li class="sale-gallery-item">
                                     <picture>
-                                        <source srcset="./img/sale/sale-2.jpg 1x, ./img/sale/sale-2@2x 2x" media="min-width: 768px">
-                                        <source srcset="./img/sale/sale-2-mob.jpg 1x, ./img/sale/sale-2-mob@2x 2x" media="max-width: 767px">
-                                        <img src="./img/sale/sale-2.jpg" alt="second picture of watch" width="80" height="80">
+                                        <source srcset="./img/sale/sale-2.jpg 1x, ./img/sale/sale-2@2x.jpg 2x" media="(min-width: 768px)">
+                                        <source srcset="./img/sale/sale-2-mob.jpg 1x, ./img/sale/sale-2-mob@2x.jpg 2x" media="(max-width: 767px)">
+                                        <img src="./img/sale/sale-1.jpg" alt="sacond picture of watch" width="146" height="146">
                                     </picture>
-                                    </li>
+                                </li>
                                 <li class="sale-gallery-item">
                                     <picture>
-                                        <source srcset="./img/sale/sale-3.jpg 1x, ./img/sale/sale-3@2x 2x" media="min-width: 768px">
-                                        <source srcset="./img/sale/sale-3-mob.jpg 1x, ./img/sale/sale-3-mob@2x 2x" media="max-width: 767px">
-                                        <img src="./img/sale/sale-3.jpg" alt="third picture of watch" width="80" height="80">
+                                        <source srcset="./img/sale/sale-3.jpg 1x, ./img/sale/sale-3@2x.jpg 2x" media="(min-width: 768px)">
+                                        <source srcset="./img/sale/sale-3-mob.jpg 1x, ./img/sale/sale-3-mob@2x.jpg 2x" media="(max-width: 767px)">
+                                        <img src="./img/sale/sale-3.jpg" alt="third picture of watch" width="146" height="146">
                                     </picture>
-                                    </li>
+                                </li>
                                 <li class="sale-gallery-item">
                                     <picture>
-                                        <source srcset="./img/sale/sale-4.jpg 1x, ./img/sale/sale-4@2x 2x" media="min-width: 768px">
-                                        <source srcset="./img/sale/sale-4-mob.jpg 1x, ./img/sale/sale-4-mob@2x 2x" media="max-width: 767px">
-                                        <img src="./img/sale/sale-4.jpg" alt="fourth picture of watch" width="80" height="80">
+                                        <source srcset="./img/sale/sale-4.jpg 1x, ./img/sale/sale-4@2x.jpg 2x" media="(min-width: 768px)">
+                                        <source srcset="./img/sale/sale-4-mob.jpg 1x, ./img/sale/sale-4-mob@2x.jpg 2x" media="(max-width: 767px)">
+                                        <img src="./img/sale/sale-4.jpg" alt="fourth picture of watch" width="146" height="146">
                                     </picture>
                                 </li>
                             </ul>
                             <picture>
-                                <source srcset="./img/sale/sale-main.jpg 1x, ./img/sale/sale-main@2x 2x" media="min-width: 768px">
-                                <source srcset="./img/sale/sale-main-mob.jpg 1x, ./img/sale/sale-main-mob@2x 2x" media="max-width: 767px">
-                                <img src="./img/sale/sale-main.jpg" alt="main picture of watch" width="" height="">
+                                <source srcset="./img/sale/sale-main.jpg 1x, ./img/sale/sale-main@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./img/sale/sale-main-mob.jpg 1x, ./img/sale/sale-main-mob@2x.jpg 2x" media="(max-width: 767px)">
+                                <img src="./img/sale/sale-main.jpg" alt="sale main picture" width="406" height="614">
                             </picture>
                         </div>
                         <div class="details-wrap">
