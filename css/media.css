@@ -29,16 +29,12 @@
         display: flex;
         justify-content: space-between;
     }
-    .about-descr-wrap{
+    .about-descr-list{
         max-width: 490px;
-        display: flex;
+        flex-wrap: nowrap;
         gap: 20px;
     }
-    .about-img{
-        display: none;
-    }
     .about-animation{
-        display: block;
         width: 704px;
         height: 465px;
     }
@@ -72,15 +68,22 @@
     }
 
     /* -------------ABOUT AS----------------- */
-  
-    .about-descr-wrap{
-        max-width: 859px;
+    .about-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    .about-wrap{
+        gap: 110px;
+    }
+    .about-descr-list{
+        max-width: 893px;
+        flex-wrap: nowrap;
         gap: 40px;
     }
     .about-animation{
         width: 892px;
         height: 500px;
-        margin-left: auto;
     }
    
 
