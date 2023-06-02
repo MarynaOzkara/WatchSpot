@@ -36,9 +36,103 @@ button{
     margin: 0 auto;
 }
 :root{
+    --main-bg-color: #141414;
+    --main-wight: #ffffff;
     --main-title-color: #141414;
     --second-title-color: #1E2827;
     --base-text-color: rgba(20, 20, 20, 0.5);
+    --slider-navigation: rgba(255, 255, 255, 0.5);
+}
+
+/* -------------HERO----------------- */
+.hero {
+    background-color: var(--main-bg-color);
+    padding-top: 122px;
+    padding-bottom: 40px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: var(--main-wight);
+    margin-bottom: 60px;
+
+}
+.hero-descr {
+    max-width: 248px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--main-wight);
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+.slider-wrap {
+    margin-bottom: 40px;
+}
+.slider-list{
+    margin-bottom: 20px;
+}
+.slider-item{
+    width: 266px;
+    height: 200px;
+}
+.slider-btn-wrap{
+    display: flex;
+    gap: 12px;
+}
+.slider-control{
+    width: 266px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.slider-btn{
+    display: block;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--slider-navigation);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-btn-icon{
+    stroke: var(--slider-navigation);
+}
+.slider-btn:hover,
+.slider-btn:focus{
+    border-color: var(--main-wight);
+}
+.slider-btn:hover .slider-btn-icon,
+.slider-btn:focus .slider-btn-icon{
+    stroke: var(--main-wight);
+}
+.slider-counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-counter::before{
+    content: '';
+    width: 32px;
+    height: 1px;
+    background-color: var(--main-wight);
+    flex-grow: 1;
+}
+.counter-number{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--main-wight);
 }
 
 /* -------------ABOUT AS----------------- */
