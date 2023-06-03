@@ -117,13 +117,14 @@ button{
 }
 .slider-counter{
     display: flex;
+    gap: 4px;
     justify-content: space-between;
     align-items: center;
 }
 .slider-counter::before{
     content: '';
     width: 32px;
-    height: 1px;
+    height: 0.5px;
     background-color: var(--main-wight);
     flex-grow: 1;
 }
@@ -133,6 +134,9 @@ button{
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: var(--main-wight);
+}
+.counter-number:first-child{
+    order: -1;
 }
 
 /* -------------ABOUT AS----------------- */
