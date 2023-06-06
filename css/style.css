@@ -62,9 +62,7 @@ button{
     padding-top: 122px;
     padding-bottom: 40px;
 }
-.hero-grid{
-    display: grid;
-}
+
 .hero-title {
     font-weight: 600;
     font-size: 38px;
