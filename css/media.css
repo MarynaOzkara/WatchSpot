@@ -23,15 +23,19 @@
         padding-top: 148px;
         padding-bottom: 64px;
     }
+    .hero-grid{
+      
+        
+    }
     .hero-title{
+        
         font-size: 60px;
         line-height: 1.03;
 
     }
-    .hero-tab-flex{
-        display: flex;
-        gap: 20px;
-        align-items: center;
+    .hero-descr{
+        padding-top: 70px;
+        margin-bottom: 0;
     }
     .slider-wrap{
       width: 436px;
@@ -41,6 +45,8 @@
         height: 255px;
     }
     .hero-img{
+        grid-column-start: 1;
+        grid-column-end: 3;
         width: 704px;
         height: 410px;
     }
@@ -100,36 +106,25 @@
         width: 676px;
         height: 394px;
      }
-    .hero-flex{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 43px 64px;
-        align-items: end;
-        
-    }
+     .hero-grid{
+       
+     }
+     
     .slider-wrap{
+      
         margin-bottom: 0;
     }
     .hero-title{
+      
         width: 750px;
         margin-bottom: 0;
     }
-    .hero-tab-flex{
-        display: block;
-    }
     .hero-descr{
-        display: none;
+        
+        padding-top: 0;
+        max-width: 282px;  
     }
-    .hero-desctop-descr{
-        max-width: 282px;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 1.29;
-        letter-spacing: -0.02em;
-        color: var(--main-wight);
-        margin-left: auto;
-        margin-bottom: 40px;
-    }
+   
 
     /* -------------ABOUT AS----------------- */
     .about-flex{
