@@ -120,6 +120,8 @@ button{
     justify-content: center;
 }
 .slider-btn-icon{
+    width: 18px;
+    height: 18px;
     stroke: var(--slider-navigation);
 }
 .slider-btn:hover,

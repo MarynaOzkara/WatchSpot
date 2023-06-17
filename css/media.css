@@ -49,8 +49,14 @@
     }
     .hero-img{
         order: 4;
-        width: 704px;
-        height: 410px;
+    }
+    .slider-btn{
+       width: 40px;
+       height: 40px;
+    }
+    .slider-btn-icon{
+        width: 24px;
+        height: 24px;
     }
     /* -------------ABOUT AS----------------- */
     .about-us {

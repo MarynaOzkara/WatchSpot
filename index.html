@@ -14,19 +14,26 @@
     <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-     <!-- <header>
-        <nav>
-            <a href="index.html">
-                <img src="" alt="">
-                thewatchspot</a>
-            <ul>
-                <li><a href="">about us</a></li>
-                <li><a href="">catalog</a></li>
-                <li><a href="#sale" class="link">sale</a></li>
-            </ul>
-        </nav>
-        <a href="tel:+38068443942">+380 (68) 443-94-2</a>    
-    </header> -->
+     <header class="header">
+        <div class="container">
+            <nav class="header-navigation">
+                <a href="index.html" class="logo-link link">
+                    <img src="" alt="">
+                    thewatchspot</a>
+                <ul class="header-menu-list list">
+                    <li class="header-menu-item"><a href="">about us</a></li>
+                    <li class="header-menu-item"><a href="">catalog</a></li>
+                    <li class="header-menu-item"><a href="#sale" class="link">sale</a></li>
+                </ul>
+            </nav>
+            <a class="header-tel link" href="tel:+38068443942">+380 (68) 443-94-2</a>    
+            <button type="button" class="mob-menu-btn">
+                <svg class="mob-menu-icon">
+                    <use></use>
+                </svg>
+            </button>
+        </div>
+    </header>
     <main>
         <section class="hero">
            <div class="container">
@@ -34,11 +41,41 @@
                    <h1 class="hero-title">Welcome to our collection of premium watches</h1>
                     <div class="slider-wrap">
                                 <ul class="slider-list list">
-                                    <li class="slider-item"><img src="./img/hero/slider-1.jpg" width="266" height="200" alt="часи"></li>
-                                    <li class="slider-item"><img src="./img/hero/slider-2.jpg" width="266" height="200" alt="часи"></li>
-                                    <li class="slider-item"><img src="./img/hero/slider-3.jpg" width="266" height="200" alt="часи"></li>
-                                    <li class="slider-item"><img src="./img/hero/slider-4.jpg" width="266" height="200" alt="часи"></li>
-                                    <li class="slider-item"><img src="./img/hero/slider-5.jpg" width="266" height="200" alt="часи"></li>
+                                    <li class="slider-item">
+                                        <picture>
+                                            <source srcset="./img/hero/slider-big-1.jpg" media="(min-width: 768px)">
+                                            <source srcset="./img/hero/slider-1.jpg" media="(max-width: 768px)">
+                                            <img src="./img/hero/slider-1.jpg" alt="часи">
+                                        </picture> 
+                                    </li>
+                                    <li class="slider-item">
+                                        <picture>
+                                            <source srcset="./img/hero/slider-big-2.jpg" media="(min-width: 768px)">
+                                            <source srcset="./img/hero/slider-2.jpg" media="(max-width: 768px)">
+                                            <img src="./img/hero/slider-2.jpg" alt="часи">
+                                        </picture>
+                                    </li>
+                                    <li class="slider-item">
+                                        <picture>
+                                            <source srcset="./img/hero/slider-big-3.jpg" media="(min-width: 768px)">
+                                            <source srcset="./img/hero/slider-3.jpg" media="(max-width: 768px)">
+                                            <img src="./img/hero/slider-3.jpg" alt="часи">
+                                        </picture>
+                                    </li>
+                                    <li class="slider-item">
+                                        <picture>
+                                            <source srcset="./img/hero/slider-big-4.jpg" media="(min-width: 768px)">
+                                            <source srcset="./img/hero/slider-4.jpg" media="(max-width: 768px)">
+                                            <img src="./img/hero/slider-4.jpg" alt="часи">
+                                        </picture>
+                                    </li>
+                                    <li class="slider-item">
+                                        <picture>
+                                            <source srcset="./img/hero/slider-big-5.jpg" media="(min-width: 768px)">
+                                            <source srcset="./img/hero/slider-5.jpg" media="(max-width: 768px)">
+                                            <img src="./img/hero/slider-5.jpg" alt="часи">
+                                        </picture>
+                                    </li>
                                 </ul>
                                 <div class="slider-control">
                                     <div class="slider-btn-wrap">
@@ -60,7 +97,13 @@
                                 </div>
                     </div>
                     <p class="hero-descr">Our watches are not just timepieces, but also an expression of your personality and lifestyle. From classic designs to modern ones, we have a watch to suit every taste and occasion.</p>   
-                    <img class="hero-img" src="./img/hero/hand-watch.jpg" width="335" height="410" alt="часи на руці">
+                    <picture class="hero-img">
+                        <source srcset="./img/hero/hero-desctop-img.jpg 1x, ./img/hero/hero-desctop-img@2x.jpg 2x" media="(min-width: 1440px)">
+                        <source srcset="./img/hero/hero-tab-img.jpg 1x, ./img/hero/hero-tab-img@2x.jpg 2x" media="(min-width: 768px)">
+                        <source srcset="./img/hero/hero-img.jpg 1x, ./img/hero/hero-img@2x.jpg 2x" media="(max-width: 768px)">
+                        <img src="./img/hero/hero-img.jpg" alt="часи на руці">
+                    </picture>
+                    
                </div>
            </div>
         </section>
