@@ -15,23 +15,48 @@
 </head>
 <body>
      <header class="header">
-        <div class="container">
+        <div class="container flex">
             <nav class="header-navigation">
                 <a href="index.html" class="logo-link link">
-                    <img src="" alt="">
+                    <img class="header-logo" src="./img/logo.svg" alt="логотип сайту">
                     thewatchspot</a>
                 <ul class="header-menu-list list">
-                    <li class="header-menu-item"><a href="">about us</a></li>
-                    <li class="header-menu-item"><a href="">catalog</a></li>
-                    <li class="header-menu-item"><a href="#sale" class="link">sale</a></li>
+                    <li class="header-menu-item">
+                        <a href="" class="header-menu-link link">about us</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="" class="header-menu-link link">catalog</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#sale" class="header-menu-link link">sale</a>
+                    </li>
                 </ul>
             </nav>
             <a class="header-tel link" href="tel:+38068443942">+380 (68) 443-94-2</a>    
-            <button type="button" class="mob-menu-btn">
-                <svg class="mob-menu-icon">
-                    <use></use>
+            <button type="button" class="mob-menu-btn" data-menu-open>
+                <svg class="mob-menu-icon" width="24" height="24">
+                    <use href="./img/symbol-defs.svg#icon-mob-menu"></use>
                 </svg>
             </button>
+        </div>
+        <div class="mob-menu" data-menu>
+           <div class="container">
+                <div class="flex">
+                    <a href="index.html" class="logo-link link">
+                      <img class="header-logo" src="./img/logo.svg" alt="логотип сайту">
+                    thewatchspot</a>
+                   <button type="button" class="mob-menu-close" data-menu-close>
+                     <svg class="mob-menu-close-icon" width="24" height="24">
+                        <use href="./img/symbol-defs.svg#icon-x"></use>
+                     </svg>
+                   </button> 
+                </div>
+               <ul class="mob-menu-list list">
+                <li class="mob-menu-item"><a href="" class="mob-menu-link link">about us</a></li>
+                <li class="mob-menu-item"><a href="" class="mob-menu-link link">catalog</a></li>
+                <li class="mob-menu-item"><a href="" class="mob-menu-link link">sale</a></li>
+               </ul>
+           </div>
         </div>
     </header>
     <main>
@@ -325,5 +350,6 @@
     </footer>  -->
     <script src="https://unpkg.com/siema@1.5.1/dist/siema.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/mob-menu.js"></script>
 </body>
 </html>

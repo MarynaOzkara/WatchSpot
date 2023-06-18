@@ -17,7 +17,57 @@
         padding-left: 32px;
         padding-right: 32px;
     }
+    /* -------------HEDER----------------- */
+    .mob-menu-btn{
+        display: none;
+    }
+    .header-menu-list{
+        display: block;
+    }
+    .header-tel{
+        display: block;
+    }
+    .logo-link{
+        font-size: 15px;
+    }
+    .header-logo{
+        width: 19px;
+        height: 19px;
+    }
+    .header-menu-list{
+        display: flex;
+        gap: 40px;
+    }
+    .header-navigation{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
+    .header-menu-link{
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 1.33;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .header-tel{
+        width: 149px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 1.33;
+        text-align: center;
+        padding-top: 18px;
+        text-transform: uppercase;
+        background-color: #1E2827;
+        border-radius: 8px;
 
+        transition: border var(--transform-function);
+    }
+    .header-tel:hover, .header-tel:focus{
+        border: 1px solid #FFFFFF;
+    }
     /* -------------HERO----------------- */
     .hero {
         padding-top: 148px;
