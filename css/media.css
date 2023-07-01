@@ -52,6 +52,7 @@
         color: #FFFFFF;
     }
     .header-tel{
+        display: block;
         width: 149px;
         height: 48px;
         font-weight: 400;
@@ -155,6 +156,18 @@
     .sale-gallery{
         min-width: 572px;
     }
+
+    /* -------------BACKDROPE----------------- */
+    .form-tab-flex{
+        display: flex;
+        gap: 20px;
+    }
+    .form-input{
+        width: 368px;
+    }
+    .modal{
+        padding: 20px;
+    }
     
 }
 
@@ -222,6 +235,10 @@
     .catalog-list{
        gap: 64px 24px;
     }
+    .catalog-btn{
+        width: 122px;
+        height: 50px;
+    }
 
     /* -------------SALE----------------- */
     .sale {
@@ -238,5 +255,22 @@
     }
     .sale-gallery{
         margin-bottom: 0;
+    }
+
+     /* -------------BACKDROPE----------------- */
+     .form-tab-flex{
+        gap: 40px;
+    }
+    .form-input{
+        width: 508px;
+    }
+    .modal{
+        padding: 40px;
+    }
+    .form-input{
+        margin-bottom: 24px;
+    }
+    .form-textarea{
+        margin-bottom: 40px;
     }
 }
