@@ -177,7 +177,7 @@
                         <p class="catalog-item-price">€1400</p>
                     </li>
                 </ul>
-                <button type="button" class="catalog-btn">Buy now</button>
+                <button type="button" class="catalog-btn" data-modal-open>Buy now</button>
            </div>
         </section>
         <!-- <section class="new watches">
@@ -318,9 +318,9 @@
                 </ul>
             </div>
     </footer>  -->
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
         <div class="modal">
-            <button type="button" class="close-modal-btn">
+            <button type="button" class="close-modal-btn" data-modal-close>
                 <svg class="modal-close-icon" width="24" height="24">
                     <use href="./img/symbol-defs.svg#icon-x"></use>
                  </svg>
@@ -359,7 +359,9 @@
         </div>
     </div>
     <script src="https://unpkg.com/siema@1.5.1/dist/siema.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/modal.js"></script>
     <script src="./js/mob-menu.js"></script>
+    <script src="./js/main.js"></script>
+    
 </body>
 </html>
