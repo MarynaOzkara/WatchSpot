@@ -482,22 +482,31 @@ button{
     width: 100%;
     height: 100%;
     background-color: var(--modal-bg);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    /* visibility: hidden;
+    opacity: 0;
+    transition: all var(--transform-function);
+    pointer-events: none; */
+    
+    /* &._active{
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+} */
+}
+.backdrop.is-hidden {
     visibility: hidden;
     opacity: 0;
     transition: all var(--transform-function);
     pointer-events: none;
-    
-    &._active{
-        opacity: 1;
-        visibility: visible;
-        pointer-events: all;
-}
-}
-body{
+  }
+/* body{
     &._locked{
         overflow: hidden;
     }
-}
+} */
 .modal {
     position: absolute;
     max-height: 100%;
