@@ -167,6 +167,7 @@
     }
     .modal{
         padding: 20px;
+        width: 904px;
     }
     
 }
@@ -272,15 +273,8 @@
     }
     .form-textarea{
         margin-bottom: 40px;
-    }
-    .choosen-watch{
-        display: block;
-    }
-    .choosen-watch-wrap{
-        width: 276px;
-        height: 325px;
-    }
-    .form-textarea{
+    } 
+   .form-textarea{
         height: 170px;
     }
 }
